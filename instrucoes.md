@@ -16,44 +16,62 @@ Colunas:
     - DataAdmissao -> data de admissão (relevante)
     - DataDemissao -> data de demissão (relevante)
     - CodDepartamento -> código da última Unidade Orgânica a que o trabalhador esteve afeto (relevante)
-    - Nível Remuneratório -> código do último nível remuneratório do trabalhador
-    - Habilitação -> código do nível de habilitação mais alto do trabalhador
-    - TipoContrato -> código do tipo de vínculo contratual do trabalhador com a Lisboa SRU
+    - Nível Remuneratório -> código do último nível remuneratório do trabalhador (relevante)
+    - Habilitação -> código do nível de habilitação mais alto do trabalhador (relevante)
+    - TipoContrato -> código do tipo de vínculo contratual do trabalhador com a Lisboa SRU (relevante)
     - Sexo (relevante)
 
 
 ## Tabela historico
 
 Colunas:
-    - Funcionário -> número mecanográfico dos trabalhadores; em formato texto, ###; pode ser transformado em formato número inteiro
-    - Nome -> nome completo dos trabalhadores
-    - DataInicio -> data de início do período do trabalhador naquele nível remuneratório
-    - DataFim -> data de fim do período do trabalhador naquele nível remuneratório
-    - Carreira -> código da carreira do trabalhador
-    - DescCarreira -> carreira do trabalhador
-    - Categoria -> código da categoria do trabalhador
-    - DescCategoria -> categoria do trabalhador
-    - Nivel -> código do nível remuneratório
-    - DescrNivel -> descrição do nível remuneratório
-    - ValorNivel -> valor da remuneração correspondente ao nível
+    - Funcionário -> número mecanográfico dos trabalhadores; em formato texto, ###; pode ser transformado em formato número inteiro (relevante)
+    - Nome -> nome completo dos trabalhadores (relevante)
+    - DataInicio -> data de início do período do trabalhador naquele nível remuneratório (relevante)
+    - DataFim -> data de fim do período do trabalhador naquele nível remuneratório (relevante)
+    - Carreira -> código da carreira do trabalhador (relevante)
+    - DescCarreira -> carreira do trabalhador (relevante)
+    - Categoria -> código da categoria do trabalhador (relevante)
+    - DescCategoria -> categoria do trabalhador (relevante)
+    - Nivel -> código do nível remuneratório (relevante)
+    - DescrNivel -> descrição do nível remuneratório (relevante)
+    - ValorNivel -> valor da remuneração correspondente ao nível (relevante)
 
 
 ## Tabela niveis_remuneratorios
 
 Colunas:
-    - Nível -> código do nível remuneratório
-    - Descrição -> primeira parte da descrição do nível remuneratório
+    - Nível -> código do nível remuneratório (relevante)
+    - Descrição -> primeira parte da descrição do nível remuneratório (relevante)
     - Transição -> não sei o que é
     - Nível Transição -> não sei o que é
     - Indice -> não sei o que é
-    - Valor -> valor remuneratório correspondente ao nível e ao ano identificado na data na coluna 'Datainicial'
-    - DataInicial -> data em que o trabalhador passou a estar integrado naquele nível remuneratório
+    - Valor -> valor remuneratório correspondente ao nível e ao ano identificado na data na coluna 'Datainicial' (relevante)
+    - DataInicial -> data em que o trabalhador passou a estar integrado naquele nível remuneratório (relevante)
 
+
+## Tabela processamento_####
+
+Colunas:
+    - Ano (relevante)
+    - Mes (relevante)
+    - Funcionario -> número mecanográfico dos trabalhadores; em formato texto, ###; pode ser transformado em formato número inteiro (relevante)
+    - Nome -> nome completo dos trabalhadores (relevante)
+    - OrgaoSocial -> não sei o que é
+    - Contribuinte -> número de contribuinte do trabalhador
+    - NumSSocial -> número de segurança social do trabalhador
+    - NumCGA -> número da Caixa Geral de Aposentações do trabalhador
+    - Departamento -> Unidade Orgânica (relevante)
+    - TipoPessoalProc -> tipo de vínculo contratual (relevante)
+    - TipoProc -> tipo de processamento
+    - CodMov -> código do movimento
+    - Descrição - 
 
 
 # Dashboards e relatórios a produzir
 
 ## Trabalhadores e trabalhadoras da Lisboa SRU
+
 
 
 
@@ -66,5 +84,9 @@ Colunas:
 
 
 ## Mobilidade
+
+
+
+
 
 
