@@ -63,9 +63,70 @@ Colunas:
     - NumCGA -> número da Caixa Geral de Aposentações do trabalhador
     - Departamento -> Unidade Orgânica (relevante)
     - TipoPessoalProc -> tipo de vínculo contratual (relevante)
-    - TipoProc -> tipo de processamento
-    - CodMov -> código do movimento
-    - Descrição - 
+    - TipoProc -> tipo de processamento (relevante)
+    - CodMov -> código do movimento (relevante)
+    - Descrição -> descrição do movimento (relevante)
+    - Valor -> valor dos movimentos a receber ou devidos pelo trabalhador (é negativo se for um desconto do vencimento) (relevante)
+    - ValorEncargos -> valor pago pela empresa como encargo sobre o trabalhador (relevante)
+    - ValorMapaSS -> soma dos valores pagos à Segurança Social (corresponde à soma dos valores, para cada trabalhador em cada mês, em 'Valor' e 'ValorEncargos' dos movimentos com descrição 'Segurança Social') (relevante)
+    - ValorSujeitoIRS -> valores, dos valores na coluna 'Valor', que estão sujeitos ao cálculo dos descontos de IRS (relevante)
+    - ValorDescontadoFaltas -> valores descontados do subsídio devido a absentismo (relevante)
+    - ContaCBL -> não sei o que é
+    - CCusto -> não sei o que é
+    - Organica -> não sei o que é
+    - Fonte -> não sei o que é
+    - Atividade -> não sei o que é
+    - ProgMedida -> não sei o que é
+    - Economica -> não sei o que é
+    - Diario -> não sei o que é
+    - NumDiario -> não sei o que é
+
+
+## Tabela lista_formacoes
+
+Colunas:
+    - PlanoFormacao -> código do plano de formação
+    - Curso -> código da formação
+    - Descricao -> título da formação
+    - TipoAccao -> não sei o que é
+    - Obrigatorio -> se é uma formação obrigatória ou não
+    - ProcedimentoContratacao -> código interno do procedimento de contratação
+    - EstadoCurso -> não sei o que é
+    - DisponivelOMNIA -> não sei o que é
+    - TotalHoras -> número de horas da formação
+    - EntidadeFormadora -> entidade formadora
+    - DataLimiteInscricao -> data limite para os trabalhadores se inscreverem
+    - Ocorrencia -> 
+    - DataInicio -> 
+    - DataFim
+    - NrInscritos
+    - Custo
+
+
+## Tabela formacoes
+
+Colunas:
+    - CodDepartamento
+    - DescDepartamento
+    - Codigo
+    - Nome
+    - DataSaida
+    - ProcedimentoContratacao
+    - CodCurso
+    - DescCurso
+    - NIFEntidadeFormadora
+    - EntidadeFormadora
+    - DataInicio
+    - DataFim
+    - AnoConclusao
+    - Horas
+    - Custo
+    - Estado
+    - Motivo
+    - PlanoFormacao
+
+
+
 
 
 # Dashboards e relatórios a produzir
